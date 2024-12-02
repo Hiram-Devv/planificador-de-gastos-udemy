@@ -20,7 +20,7 @@ export const BudgetProvider = ({children} : BudgetProviderProps) => {
        <BudgetContext.Provider
             value={{
                 state,
-                dispatch
+                dispatch,
             }}
        >
             {children}
